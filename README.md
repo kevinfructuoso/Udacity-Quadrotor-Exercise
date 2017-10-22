@@ -20,7 +20,7 @@ Add the PID class you wrote to `quad_controller/src/quad_controller/pid_controll
 After you have added the PID class, you can launch the hover controller.
 To do so, run the following commands in your terminal:
 ```
-$ cd ~/catkin_ws/
+$ cd ~/quad_exercise/
 $ catkin_make
 $ source devel/setup.bash
 $ roslaunch quad_controller hover_controller.launch
@@ -79,7 +79,7 @@ Note: ZN/Twiddle Tuner nodes only work with the Hover controller.
 $ roslaunch quad_controller attitude_controller.launch
 ```
 
-### Step 2: Launch the Attitude Controller ###
+### Step 2: Tuning Parameters ###
 
 Tune roll and pitch PID parmaeters until things look good.
 You'll also need to write down these PID parameters.
